@@ -1,0 +1,118 @@
+
+body{
+    background-color:hsl(207, 33%, 95%);
+    max-width: 1440px;
+    max-height: 800px;
+    font-weight: 400px;
+    font-size: 18px;
+    font-family:'Barlow';
+    margin-left:100px ;
+    
+}
+.list{
+    display: flex;
+    list-style: none;
+    font-family: 'Barlow' Condensed;
+    color:hsl(231, 7%, 65%);
+    position: relative;
+    top: 30px;
+    
+}
+.nav{
+    float: right;
+}
+.point{
+    padding-left: 30px;
+
+    }
+    .btn1{
+        margin-left: 20px;
+        background-color:hsl(255deg 43% 28%); 
+        color: white;
+        font-family:'Barlow' Condensed ;
+        font-size: 18px;
+        padding: 20px;
+        width: 150px;
+        border-radius: 5px;
+        border: none;
+        position: relative;
+        bottom: 15px;
+    }
+    .btn1:hover{
+        cursor: pointer;
+    }
+    span{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    .col{
+        background-color:hsl(255deg 43% 28%);
+        color: hsl(231, 7%, 65%);
+        padding: 12px;
+        max-width: 550px;
+        font-size: 20px;
+        border-radius: 90px;
+    }
+    .png{
+        width: 35%;
+        height: 500px;
+        position: relative;
+        bottom: 320px;
+    }
+    .pass{
+        display: flex;
+    }
+    .up{
+        position: relative;
+        bottom: 400px;
+    }
+    .icon{
+        position: relative;
+        top: 40px;
+    }
+    .in{
+        padding: 20px;
+        width: 300px;
+    }
+    .in::placeholder{
+        font-size: 20px;
+        color:hsl(231, 7%, 65%);
+    }
+    .btn2{
+        margin-left: 10px;
+        background-color:hsl(255deg 43% 28%); 
+        color: white;
+        padding: 23px;
+        width: 150px;
+        border-radius: 5px;
+        font-family:'Barlow' Condensed ;
+        font-size: 18px;
+        border: none;
+        position: relative;
+        top: 1px;
+    }
+    .btn2:hover{
+        cursor: pointer;
+    }
+    .big{
+        font-size: 70px;
+        font-weight: 10px;
+        font-family: 'Barlow';
+        color:hsl(230, 29%, 20%);
+    }
+    .content{
+        font-family:'Barlow' ;
+        color:hsl(240, 2%, 42%);
+        font-size: 25px;
+        font-weight: 2px;
+        position: relative;
+        bottom: 60px;
+    }
+    .end{
+        font-family:'Barlow' Condensed ;
+        color: hsl(210, 4%, 11%);
+    }
+    .icon2{
+        margin-left: 10px;
+    }
